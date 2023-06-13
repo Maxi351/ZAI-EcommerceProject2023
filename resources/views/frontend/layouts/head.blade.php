@@ -34,7 +34,14 @@
 
 <!-- Eshop StyleSheet -->
 <link rel="stylesheet" href="{{asset('frontend/css/reset.css')}}">
+
+<?php
+if ((((int) date('H')) < 16) ): ?>
 <link rel="stylesheet" href="{{asset('frontend/css/style.css')}}">
+<?php else: ?>
+<link rel="stylesheet" href="{{asset('frontend/css/styleDark.css')}}">
+<?php endif ?>
+
 <link rel="stylesheet" href="{{asset('frontend/css/responsive.css')}}">
 <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f2e5abf393162001291e431&product=inline-share-buttons' async='async'></script>
 <style>
