@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'ZAIprojekt2023'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9BAC0700B7EB465D9B29A5A493360C74 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CE277061ABFE4642B7D555F4A8013037 }}
           package: .
